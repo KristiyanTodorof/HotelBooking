@@ -1,4 +1,5 @@
-﻿using HotelBooking.Domain.Models;
+﻿using HotelBooking.Domain.BaseModels;
+using HotelBooking.Domain.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -132,6 +133,29 @@ namespace HotelBooking.Infrastructure.Data
             builder.Entity<Payment>()
                 .Property(p => p.CreditCard)
                 .HasMaxLength(200); // Allow extra space for encrypted data
+        }
+        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            var entries = ChangeTracker.Entries<IAuditableEntity>().ToList();
+            foreach (var entry in entries)
+            {
+                var entity = entry.Entity;
+                if (EntityState.Added == entry.State)
+                {
+                    entity.CreatedAt = DateTime.UtcNow;
+                }
+                else if (EntityState.Modified == entry.State)
+                {
+                    entity.ModifiedAt = DateTime.UtcNow;
+                }
+                else if (EntityState.Deleted == entry.State)
+                {
+                    entry.State = EntityState.Modified;
+                    entity.DeletedAt = DateTime.UtcNow;
+                    entity.IsDeleted = true;
+                }
+            }
+            return await base.SaveChangesAsync(cancellationToken);
         }
     }
 }
