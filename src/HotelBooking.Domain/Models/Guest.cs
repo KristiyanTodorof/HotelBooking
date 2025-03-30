@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,5 +34,9 @@ namespace HotelBooking.Domain.Models
 
         // Relationships
         public ICollection<Booking> Bookings { get; set; } = new List<Booking>();
+        public Guid? ApplicationUserId { get; set; }
+
+        [ForeignKey("ApplicationUserId")]
+        public virtual ApplicationUser ApplicationUser { get; set; }
     }
 }

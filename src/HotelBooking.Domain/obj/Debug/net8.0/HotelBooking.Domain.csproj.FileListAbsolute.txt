@@ -9,3 +9,7 @@ C:\Users\Admin\Documents\GitHub\HotelBooking\src\HotelBooking.Domain\obj\Debug\n
 C:\Users\Admin\Documents\GitHub\HotelBooking\src\HotelBooking.Domain\obj\Debug\net8.0\refint\HotelBooking.Domain.dll
 C:\Users\Admin\Documents\GitHub\HotelBooking\src\HotelBooking.Domain\obj\Debug\net8.0\HotelBooking.Domain.pdb
 C:\Users\Admin\Documents\GitHub\HotelBooking\src\HotelBooking.Domain\obj\Debug\net8.0\ref\HotelBooking.Domain.dll
+C:\Users\Admin\Documents\GitHub\HotelBooking\src\HotelBooking.Domain\bin\Debug\net8.0\HotelBooking.Domain.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\HotelBooking\src\HotelBooking.Domain\obj\Debug\net8.0\HotelBooking.Domain.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\HotelBooking\src\HotelBooking.Domain\obj\Debug\net8.0\HotelBooking.Domain.sourcelink.json
+C:\Users\Admin\Documents\GitHub\HotelBooking\src\HotelBooking.Domain\obj\Debug\net8.0\HotelBooking.Domain.genruntimeconfig.cache
