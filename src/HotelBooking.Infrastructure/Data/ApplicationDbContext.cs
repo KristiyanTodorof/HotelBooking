@@ -142,16 +142,16 @@ namespace HotelBooking.Infrastructure.Data
                 var entity = entry.Entity;
                 if (EntityState.Added == entry.State)
                 {
-                    entity.CreatedAt = DateTime.UtcNow;
+                    entity.CreatedAt = DateTimeOffset.UtcNow;
                 }
                 else if (EntityState.Modified == entry.State)
                 {
-                    entity.ModifiedAt = DateTime.UtcNow;
+                    entity.ModifiedAt = DateTimeOffset.UtcNow;
                 }
                 else if (EntityState.Deleted == entry.State)
                 {
                     entry.State = EntityState.Modified;
-                    entity.DeletedAt = DateTime.UtcNow;
+                    entity.DeletedAt = DateTimeOffset.UtcNow;
                     entity.IsDeleted = true;
                 }
             }
