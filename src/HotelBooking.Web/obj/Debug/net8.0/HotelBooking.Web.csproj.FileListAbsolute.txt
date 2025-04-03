@@ -155,3 +155,5 @@ C:\Users\Admin\Documents\GitHub\HotelBooking\src\HotelBooking.Web\obj\Debug\net8
 C:\Users\Admin\Documents\GitHub\HotelBooking\src\HotelBooking.Web\obj\Debug\net8.0\HotelBooking.Web.pdb
 C:\Users\Admin\Documents\GitHub\HotelBooking\src\HotelBooking.Web\obj\Debug\net8.0\HotelBooking.Web.genruntimeconfig.cache
 C:\Users\Admin\Documents\GitHub\HotelBooking\src\HotelBooking.Web\obj\Debug\net8.0\ref\HotelBooking.Web.dll
+C:\Users\Admin\Documents\GitHub\HotelBooking\src\HotelBooking.Web\bin\Debug\net8.0\HotelBooking.Application.dll
+C:\Users\Admin\Documents\GitHub\HotelBooking\src\HotelBooking.Web\bin\Debug\net8.0\HotelBooking.Application.pdb

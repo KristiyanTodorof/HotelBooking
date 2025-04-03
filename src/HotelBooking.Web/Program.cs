@@ -6,8 +6,11 @@ using HotelBooking.Infrastructure.Model_Binders;
 using HotelBooking.Infrastructure.Repositories;
 using HotelBooking.Infrastructure.Repositories.Interfaces;
 using HotelBooking.Infrastructure.Repositories.UnitOfWork;
+using HotelBooking.Infrastructure.Seeding;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,21 +28,22 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
             errorNumbersToAdd: null);
     })
 );
-
-// Add Identity services
+//builder.Services.AddScoped<IUserStore<ApplicationUser>, UserStore<ApplicationUser, ApplicationRole, ApplicationDbContext, Guid>>();
+//builder.Services.AddScoped<IRoleStore<ApplicationRole>, RoleStore<ApplicationRole, ApplicationDbContext, Guid>>();
+//Add Identity services
 builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
 {
     // Configure identity options
     options.Password.RequireDigit = builder.Configuration.GetValue<bool>("SecuritySettings:PasswordRequireDigit");
-    options.Password.RequireLowercase = builder.Configuration.GetValue<bool>("SecuritySettings:PasswordRequireLowercase");
-    options.Password.RequireUppercase = builder.Configuration.GetValue<bool>("SecuritySettings:PasswordRequireUppercase");
-    options.Password.RequireNonAlphanumeric = builder.Configuration.GetValue<bool>("SecuritySettings:PasswordRequireNonAlphanumeric");
-    options.Password.RequiredLength = builder.Configuration.GetValue<int>("SecuritySettings:PasswordMinLength");
+options.Password.RequireLowercase = builder.Configuration.GetValue<bool>("SecuritySettings:PasswordRequireLowercase");
+options.Password.RequireUppercase = builder.Configuration.GetValue<bool>("SecuritySettings:PasswordRequireUppercase");
+options.Password.RequireNonAlphanumeric = builder.Configuration.GetValue<bool>("SecuritySettings:PasswordRequireNonAlphanumeric");
+options.Password.RequiredLength = builder.Configuration.GetValue<int>("SecuritySettings:PasswordMinLength");
 
-    options.Lockout.MaxFailedAccessAttempts = builder.Configuration.GetValue<int>("SecuritySettings:UserLockoutMaxFailedAttempts");
-    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(builder.Configuration.GetValue<int>("SecuritySettings:UserLockoutDurationMinutes"));
+options.Lockout.MaxFailedAccessAttempts = builder.Configuration.GetValue<int>("SecuritySettings:UserLockoutMaxFailedAttempts");
+options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(builder.Configuration.GetValue<int>("SecuritySettings:UserLockoutDurationMinutes"));
 
-    options.User.RequireUniqueEmail = true;
+options.User.RequireUniqueEmail = true;
 })
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
@@ -53,6 +57,7 @@ builder.Services.AddScoped<IGuestRepository, GuestRepository>();
 builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
 builder.Services.AddScoped<IRoomRepository, RoomRepository>();
 builder.Services.AddScoped<ISalesChannelRepository, SalesChannelRepository>();
+
 
 builder.Services.AddAutoMapperConfiguration();
 
@@ -76,13 +81,17 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseDeveloperExceptionPage();
-    app.UseMigrationsEndPoint();
+    // Apply migrations and seed data in development
+    await app.MigrateDatabaseAsync();
+    await app.SeedDatabaseAsync();
 }
 else
 {
     app.UseExceptionHandler("/Error");
     app.UseHsts();
+
+    // Only apply migrations in production (no seeding)
+    await app.MigrateDatabaseAsync();
 }
 
 app.UseHttpsRedirection();
@@ -94,18 +103,16 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<ApplicationDbContext>();
+    var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
+    var roleManager = services.GetRequiredService<RoleManager<ApplicationRole>>();
+    var logger = services.GetRequiredService<ILogger<DatabaseSeeder>>();
 
-// Create database and apply migrations during development
-//if (app.Environment.IsDevelopment())
-//{
-//    // Ensure database is created and migrations are applied
-//    using (var scope = app.Services.CreateScope())
-//    {
-//        var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-//        dbContext.Database.Migrate();
-
-//        // Add seed data if needed
-//    }
-//}
+    var seeder = new DatabaseSeeder(context, userManager, roleManager, logger);
+    await seeder.SeedAsync();
+}
 
 app.Run();
