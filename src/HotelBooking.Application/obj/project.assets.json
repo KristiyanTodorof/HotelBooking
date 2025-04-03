@@ -1661,6 +1661,22 @@
             "rid": "win"
           }
         }
+      },
+      "HotelBooking.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "14.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.10",
+          "Microsoft.AspNetCore.Identity.UI": "8.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10"
+        },
+        "compile": {
+          "bin/placeholder/HotelBooking.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HotelBooking.Domain.dll": {}
+        }
       }
     }
   },
@@ -4471,11 +4487,17 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "HotelBooking.Domain/1.0.0": {
+      "type": "project",
+      "path": "../HotelBooking.Domain/HotelBooking.Domain.csproj",
+      "msbuildProject": "../HotelBooking.Domain/HotelBooking.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper >= 14.0.0",
+      "HotelBooking.Domain >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.10",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
@@ -4510,7 +4532,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Domain\\HotelBooking.Domain.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Domain\\HotelBooking.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
