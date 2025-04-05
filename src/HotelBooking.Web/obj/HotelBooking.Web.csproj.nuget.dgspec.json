@@ -31,6 +31,9 @@
             "projectReferences": {
               "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Domain\\HotelBooking.Domain.csproj": {
                 "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Domain\\HotelBooking.Domain.csproj"
+              },
+              "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj"
               }
             }
           }

@@ -1677,6 +1677,23 @@
         "runtime": {
           "bin/placeholder/HotelBooking.Domain.dll": {}
         }
+      },
+      "HotelBooking.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "14.0.0",
+          "HotelBooking.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.10",
+          "Microsoft.AspNetCore.Identity.UI": "8.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10"
+        },
+        "compile": {
+          "bin/placeholder/HotelBooking.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HotelBooking.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -4492,12 +4509,18 @@
       "type": "project",
       "path": "../HotelBooking.Domain/HotelBooking.Domain.csproj",
       "msbuildProject": "../HotelBooking.Domain/HotelBooking.Domain.csproj"
+    },
+    "HotelBooking.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../HotelBooking.Infrastructure/HotelBooking.Infrastructure.csproj",
+      "msbuildProject": "../HotelBooking.Infrastructure/HotelBooking.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper >= 14.0.0",
       "HotelBooking.Domain >= 1.0.0",
+      "HotelBooking.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.10",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
@@ -4535,6 +4558,9 @@
           "projectReferences": {
             "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Domain\\HotelBooking.Domain.csproj": {
               "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Domain\\HotelBooking.Domain.csproj"
+            },
+            "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj"
             }
           }
         }

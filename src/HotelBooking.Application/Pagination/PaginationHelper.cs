@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using HotelBooking.Application.DTO.Booking;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -90,6 +91,15 @@ namespace HotelBooking.Application.Pagination
             }
 
             return controller.Ok(paginatedList.Items);
+        }
+
+        internal class PaginatedResponse<T> : Pagination.PaginatedResponse<BookingDTO>
+        {
+            public List<BookingDTO> Items { get; set; }
+            public int PageIndex { get; set; }
+            public int PageSize { get; set; }
+            public int TotalCount { get; set; }
+            public int TotalPages { get; set; }
         }
     }
 }
