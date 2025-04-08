@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F22C56B7-6EF7-426B-8316-C76BBEB6D327}|src\\HotelBooking.Application\\HotelBooking.Application.csproj|c:\\users\\admin\\documents\\github\\hotelbooking\\src\\hotelbooking.application\\services\\saleschannelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F22C56B7-6EF7-426B-8316-C76BBEB6D327}|src\\HotelBooking.Application\\HotelBooking.Application.csproj|solutionrelative:src\\hotelbooking.application\\services\\saleschannelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F22C56B7-6EF7-426B-8316-C76BBEB6D327}|src\\HotelBooking.Application\\HotelBooking.Application.csproj|c:\\users\\admin\\documents\\github\\hotelbooking\\src\\hotelbooking.application\\dto\\custom\\bookingstatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F22C56B7-6EF7-426B-8316-C76BBEB6D327}|src\\HotelBooking.Application\\HotelBooking.Application.csproj|solutionrelative:src\\hotelbooking.application\\dto\\custom\\bookingstatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F22C56B7-6EF7-426B-8316-C76BBEB6D327}|src\\HotelBooking.Application\\HotelBooking.Application.csproj|c:\\users\\admin\\documents\\github\\hotelbooking\\src\\hotelbooking.application\\contracts\\isaleschannelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F22C56B7-6EF7-426B-8316-C76BBEB6D327}|src\\HotelBooking.Application\\HotelBooking.Application.csproj|solutionrelative:src\\hotelbooking.application\\contracts\\isaleschannelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F22C56B7-6EF7-426B-8316-C76BBEB6D327}|src\\HotelBooking.Application\\HotelBooking.Application.csproj|c:\\users\\admin\\documents\\github\\hotelbooking\\src\\hotelbooking.application\\dto\\custom\\saleschannelstatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F22C56B7-6EF7-426B-8316-C76BBEB6D327}|src\\HotelBooking.Application\\HotelBooking.Application.csproj|solutionrelative:src\\hotelbooking.application\\dto\\custom\\saleschannelstatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F22C56B7-6EF7-426B-8316-C76BBEB6D327}|src\\HotelBooking.Application\\HotelBooking.Application.csproj|c:\\users\\admin\\documents\\github\\hotelbooking\\src\\hotelbooking.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F22C56B7-6EF7-426B-8316-C76BBEB6D327}|src\\HotelBooking.Application\\HotelBooking.Application.csproj|solutionrelative:src\\hotelbooking.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F22C56B7-6EF7-426B-8316-C76BBEB6D327}|src\\HotelBooking.Application\\HotelBooking.Application.csproj|c:\\users\\admin\\documents\\github\\hotelbooking\\src\\hotelbooking.application\\contracts\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F22C56B7-6EF7-426B-8316-C76BBEB6D327}|src\\HotelBooking.Application\\HotelBooking.Application.csproj|solutionrelative:src\\hotelbooking.application\\contracts\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F22C56B7-6EF7-426B-8316-C76BBEB6D327}|src\\HotelBooking.Application\\HotelBooking.Application.csproj|c:\\users\\admin\\documents\\github\\hotelbooking\\src\\hotelbooking.application\\contracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F22C56B7-6EF7-426B-8316-C76BBEB6D327}|src\\HotelBooking.Application\\HotelBooking.Application.csproj|c:\\users\\admin\\documents\\github\\hotelbooking\\src\\hotelbooking.application\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F22C56B7-6EF7-426B-8316-C76BBEB6D327}|src\\HotelBooking.Application\\HotelBooking.Application.csproj|solutionrelative:src\\hotelbooking.application\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F22C56B7-6EF7-426B-8316-C76BBEB6D327}|src\\HotelBooking.Application\\HotelBooking.Application.csproj|c:\\users\\admin\\documents\\github\\hotelbooking\\src\\hotelbooking.application\\contracts\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F22C56B7-6EF7-426B-8316-C76BBEB6D327}|src\\HotelBooking.Application\\HotelBooking.Application.csproj|solutionrelative:src\\hotelbooking.application\\contracts\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F22C56B7-6EF7-426B-8316-C76BBEB6D327}|src\\HotelBooking.Application\\HotelBooking.Application.csproj|c:\\users\\admin\\documents\\github\\hotelbooking\\src\\hotelbooking.application\\dto\\custom\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -179,19 +195,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SalesChannelService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Services\\SalesChannelService.cs",
+              "RelativeDocumentMoniker": "src\\HotelBooking.Application\\Services\\SalesChannelService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Services\\SalesChannelService.cs",
+              "RelativeToolTip": "src\\HotelBooking.Application\\Services\\SalesChannelService.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAIwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:22:23.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SalesChannelStatsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\Custom\\SalesChannelStatsDTO.cs",
+              "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\Custom\\SalesChannelStatsDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\Custom\\SalesChannelStatsDTO.cs",
+              "RelativeToolTip": "src\\HotelBooking.Application\\DTO\\Custom\\SalesChannelStatsDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:18:51.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingStatsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\Custom\\BookingStatsDTO.cs",
+              "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\Custom\\BookingStatsDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\Custom\\BookingStatsDTO.cs",
+              "RelativeToolTip": "src\\HotelBooking.Application\\DTO\\Custom\\BookingStatsDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:17:10.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ISalesChannelService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Contracts\\ISalesChannelService.cs",
+              "RelativeDocumentMoniker": "src\\HotelBooking.Application\\Contracts\\ISalesChannelService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Contracts\\ISalesChannelService.cs",
+              "RelativeToolTip": "src\\HotelBooking.Application\\Contracts\\ISalesChannelService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T17:56:01.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\Services\\UserService.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Services\\UserService.cs",
               "RelativeToolTip": "src\\HotelBooking.Application\\Services\\UserService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwGQBAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAFkBAAAAAAAAAAAQwBMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T10:04:19.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "RoleDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\Custom\\RoleDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\Custom\\RoleDTO.cs",
@@ -199,12 +267,11 @@
               "RelativeToolTip": "src\\HotelBooking.Application\\DTO\\Custom\\RoleDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T09:59:55.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T09:59:55.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Contracts\\IUserService.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\Contracts\\IUserService.cs",
@@ -212,12 +279,11 @@
               "RelativeToolTip": "src\\HotelBooking.Application\\Contracts\\IUserService.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAcwBAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T09:50:47.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T09:50:47.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Services\\PaymentService.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\Services\\PaymentService.cs",
@@ -225,12 +291,11 @@
               "RelativeToolTip": "src\\HotelBooking.Application\\Services\\PaymentService.cs",
               "ViewState": "AgIAAPkAAAAAAAAAAAAAANUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T09:32:34.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T09:32:34.095Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "PaymentStatsDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\Custom\\PaymentStatsDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\Custom\\PaymentStatsDTO.cs",
@@ -242,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "IPaymentService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Contracts\\IPaymentService.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\Contracts\\IPaymentService.cs",
@@ -254,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "GuestService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Services\\GuestService.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\Services\\GuestService.cs",
@@ -262,12 +327,11 @@
               "RelativeToolTip": "src\\HotelBooking.Application\\Services\\GuestService.cs",
               "ViewState": "AgIAAPMAAAAAAAAAAAAuwN4AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T16:39:48.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T16:39:48.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "GuestStatsDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\Custom\\GuestStatsDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\Custom\\GuestStatsDTO.cs",
@@ -279,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "IGuestService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Contracts\\IGuestService.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\Contracts\\IGuestService.cs",
@@ -291,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "RoomService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Services\\RoomService.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\Services\\RoomService.cs",
@@ -299,12 +363,11 @@
               "RelativeToolTip": "src\\HotelBooking.Application\\Services\\RoomService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAMcBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T15:08:29.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T15:08:29.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "RoomRevenueItemDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\Custom\\RoomRevenueItemDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\Custom\\RoomRevenueItemDTO.cs",
@@ -316,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "RoomRevenueStatsDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\Custom\\RoomRevenueStatsDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\Custom\\RoomRevenueStatsDTO.cs",
@@ -328,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "IRoomService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Contracts\\IRoomService.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\Contracts\\IRoomService.cs",
@@ -340,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "BookingService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Services\\BookingService.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\Services\\BookingService.cs",
@@ -348,12 +411,11 @@
               "RelativeToolTip": "src\\HotelBooking.Application\\Services\\BookingService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8CAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:29:06.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T19:29:06.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "OccupancyStatsDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\Custom\\OccupancyStatsDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\Custom\\OccupancyStatsDTO.cs",
@@ -365,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "PaginatedResponse.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Pagination\\PaginatedResponse.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\Pagination\\PaginatedResponse.cs",
@@ -377,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "PaginationHelper.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Pagination\\PaginationHelper.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\Pagination\\PaginationHelper.cs",
@@ -389,20 +451,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "IBookingService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Contracts\\IBookingService.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\Contracts\\IBookingService.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Contracts\\IBookingService.cs",
               "RelativeToolTip": "src\\HotelBooking.Application\\Contracts\\IBookingService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBcAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAewAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T18:13:48.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Web\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "src\\HotelBooking.Web\\Views\\_ViewStart.cshtml",
@@ -414,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Web\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "src\\HotelBooking.Web\\Views\\Shared\\_LoginPartial.cshtml",
@@ -426,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "SeedExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Infrastructure\\Seeding\\SeedExtensions.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Infrastructure\\Seeding\\SeedExtensions.cs",
@@ -438,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "DatabaseSeeder.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Infrastructure\\Seeding\\DatabaseSeeder.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Infrastructure\\Seeding\\DatabaseSeeder.cs",
@@ -450,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "AutoMapperConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Mapping\\AutoMapperConfiguration.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\Mapping\\AutoMapperConfiguration.cs",
@@ -462,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Web\\Program.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Web\\Program.cs",
@@ -474,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "MappingProfiles.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\Mapping\\MappingProfiles.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\Mapping\\MappingProfiles.cs",
@@ -486,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "ChangePasswordDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\Password\\ChangePasswordDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\Password\\ChangePasswordDTO.cs",
@@ -498,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "UserUpdateDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\User\\UserUpdateDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\User\\UserUpdateDTO.cs",
@@ -510,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "UserCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\User\\UserCreateDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\User\\UserCreateDTO.cs",
@@ -522,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\User\\UserDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\User\\UserDTO.cs",
@@ -534,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "SalesChannelUpdateDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\SalesChannel\\SalesChannelUpdateDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\SalesChannel\\SalesChannelUpdateDTO.cs",
@@ -546,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "SalesChannelCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\SalesChannel\\SalesChannelCreateDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\SalesChannel\\SalesChannelCreateDTO.cs",
@@ -558,7 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "SalesChannelDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\SalesChannel\\SalesChannelDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\SalesChannel\\SalesChannelDTO.cs",
@@ -570,7 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "PaymentCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\Payment\\PaymentCreateDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\Payment\\PaymentCreateDTO.cs",
@@ -582,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "PaymentDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\Payment\\PaymentDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\Payment\\PaymentDTO.cs",
@@ -594,7 +656,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "BookingDetailsUpdateDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\BookingDetails\\BookingDetailsUpdateDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\BookingDetails\\BookingDetailsUpdateDTO.cs",
@@ -606,7 +668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "BookingDetailsCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\BookingDetails\\BookingDetailsCreateDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\BookingDetails\\BookingDetailsCreateDTO.cs",
@@ -618,7 +680,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "BookingDetails.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Domain\\Models\\BookingDetails.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Domain\\Models\\BookingDetails.cs",
@@ -630,7 +692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "BookingDetailsDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\BookingDetails\\BookingDetailsDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\BookingDetails\\BookingDetailsDTO.cs",
@@ -642,7 +704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "RoomUpdateDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\Room\\RoomUpdateDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\Room\\RoomUpdateDTO.cs",
@@ -654,7 +716,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "RoomCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Application\\DTO\\Room\\RoomCreateDTO.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Application\\DTO\\Room\\RoomCreateDTO.cs",
@@ -666,7 +728,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "DateTimeModelBinderProvider.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Infrastructure\\Model Binders\\DateTimeModelBinderProvider.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Infrastructure\\Model Binders\\DateTimeModelBinderProvider.cs",
