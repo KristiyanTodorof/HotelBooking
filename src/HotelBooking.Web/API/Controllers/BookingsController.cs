@@ -12,7 +12,6 @@ namespace HotelBooking.Web.API.Controllers
     public class BookingsController : BaseApiController
     {
        private readonly IBookingService _bookingService;
-
         public BookingsController(IBookingService bookingService)
         {
             this._bookingService = bookingService;
