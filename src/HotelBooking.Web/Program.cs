@@ -1,4 +1,6 @@
+using HotelBooking.Application.Contracts;
 using HotelBooking.Application.Mapping;
+using HotelBooking.Application.Services;
 using HotelBooking.Domain.Models;
 using HotelBooking.Infrastructure;
 using HotelBooking.Infrastructure.Data;
@@ -57,6 +59,13 @@ builder.Services.AddScoped<IGuestRepository, GuestRepository>();
 builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
 builder.Services.AddScoped<IRoomRepository, RoomRepository>();
 builder.Services.AddScoped<ISalesChannelRepository, SalesChannelRepository>();
+
+builder.Services.AddScoped<IBookingService,BookingService>();
+builder.Services.AddScoped<IGuestService, GuestService>();
+builder.Services.AddScoped<IPaymentService, PaymentService>();
+builder.Services.AddScoped<ISalesChannelService, SalesChannelService>();
+builder.Services.AddScoped<IRoomService, RoomService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 
 builder.Services.AddAutoMapperConfiguration();
