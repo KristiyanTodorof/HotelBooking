@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EF57F34-C74C-4AB3-BEEB-0B3378892CC9}|src\\HotelBooking.Web\\HotelBooking.Web.csproj|c:\\users\\admin\\documents\\github\\hotelbooking\\src\\hotelbooking.web\\api\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EF57F34-C74C-4AB3-BEEB-0B3378892CC9}|src\\HotelBooking.Web\\HotelBooking.Web.csproj|solutionrelative:src\\hotelbooking.web\\api\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EF57F34-C74C-4AB3-BEEB-0B3378892CC9}|src\\HotelBooking.Web\\HotelBooking.Web.csproj|c:\\users\\admin\\documents\\github\\hotelbooking\\src\\hotelbooking.web\\api\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF57F34-C74C-4AB3-BEEB-0B3378892CC9}|src\\HotelBooking.Web\\HotelBooking.Web.csproj|solutionrelative:src\\hotelbooking.web\\api\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EF57F34-C74C-4AB3-BEEB-0B3378892CC9}|src\\HotelBooking.Web\\HotelBooking.Web.csproj|c:\\users\\admin\\documents\\github\\hotelbooking\\src\\hotelbooking.web\\api\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EF57F34-C74C-4AB3-BEEB-0B3378892CC9}|src\\HotelBooking.Web\\HotelBooking.Web.csproj|solutionrelative:src\\hotelbooking.web\\api\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF57F34-C74C-4AB3-BEEB-0B3378892CC9}|src\\HotelBooking.Web\\HotelBooking.Web.csproj|c:\\users\\admin\\documents\\github\\hotelbooking\\src\\hotelbooking.web\\api\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF57F34-C74C-4AB3-BEEB-0B3378892CC9}|src\\HotelBooking.Web\\HotelBooking.Web.csproj|solutionrelative:src\\hotelbooking.web\\api\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GuestController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Web\\API\\Controllers\\GuestController.cs",
+              "RelativeDocumentMoniker": "src\\HotelBooking.Web\\API\\Controllers\\GuestController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Web\\API\\Controllers\\GuestController.cs",
+              "RelativeToolTip": "src\\HotelBooking.Web\\API\\Controllers\\GuestController.cs",
+              "ViewState": "AgIAABYBAAAAAAAAAAAAACYBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T21:07:56.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RoomsController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Web\\API\\Controllers\\RoomsController.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Web\\API\\Controllers\\RoomsController.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Web\\API\\Controllers\\RoomsController.cs",
               "RelativeToolTip": "src\\HotelBooking.Web\\API\\Controllers\\RoomsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQBAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAABQBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T20:40:54.218Z",
               "EditorCaption": ""
