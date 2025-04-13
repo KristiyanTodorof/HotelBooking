@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6EF57F34-C74C-4AB3-BEEB-0B3378892CC9}|src\\HotelBooking.Web\\HotelBooking.Web.csproj|c:\\users\\admin\\documents\\github\\hotelbooking\\src\\hotelbooking.web\\api\\controllers\\saleschannelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF57F34-C74C-4AB3-BEEB-0B3378892CC9}|src\\HotelBooking.Web\\HotelBooking.Web.csproj|solutionrelative:src\\hotelbooking.web\\api\\controllers\\saleschannelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6EF57F34-C74C-4AB3-BEEB-0B3378892CC9}|src\\HotelBooking.Web\\HotelBooking.Web.csproj|c:\\users\\admin\\documents\\github\\hotelbooking\\src\\hotelbooking.web\\api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EF57F34-C74C-4AB3-BEEB-0B3378892CC9}|src\\HotelBooking.Web\\HotelBooking.Web.csproj|solutionrelative:src\\hotelbooking.web\\api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SalesChannelsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Web\\API\\Controllers\\SalesChannelsController.cs",
+              "RelativeDocumentMoniker": "src\\HotelBooking.Web\\API\\Controllers\\SalesChannelsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Web\\API\\Controllers\\SalesChannelsController.cs",
+              "RelativeToolTip": "src\\HotelBooking.Web\\API\\Controllers\\SalesChannelsController.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAmwLoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:56:17.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PaymentsController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Web\\API\\Controllers\\PaymentsController.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Web\\API\\Controllers\\PaymentsController.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Web\\API\\Controllers\\PaymentsController.cs",
               "RelativeToolTip": "src\\HotelBooking.Web\\API\\Controllers\\PaymentsController.cs",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAqwMAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAMAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T19:52:12.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GuestController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Web\\API\\Controllers\\GuestController.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Web\\API\\Controllers\\GuestController.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RoomsController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Web\\API\\Controllers\\RoomsController.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Web\\API\\Controllers\\RoomsController.cs",
@@ -63,12 +80,11 @@
               "RelativeToolTip": "src\\HotelBooking.Web\\API\\Controllers\\RoomsController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAYwBQBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T20:40:54.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T20:40:54.218Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BookingsController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\HotelBooking\\src\\HotelBooking.Web\\API\\Controllers\\BookingsController.cs",
               "RelativeDocumentMoniker": "src\\HotelBooking.Web\\API\\Controllers\\BookingsController.cs",
