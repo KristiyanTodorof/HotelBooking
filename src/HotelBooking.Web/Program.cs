@@ -2,7 +2,6 @@ using HotelBooking.Application.Contracts;
 using HotelBooking.Application.Mapping;
 using HotelBooking.Application.Services;
 using HotelBooking.Domain.Models;
-using HotelBooking.Infrastructure;
 using HotelBooking.Infrastructure.Data;
 using HotelBooking.Infrastructure.Model_Binders;
 using HotelBooking.Infrastructure.Repositories;
@@ -10,9 +9,10 @@ using HotelBooking.Infrastructure.Repositories.Interfaces;
 using HotelBooking.Infrastructure.Repositories.UnitOfWork;
 using HotelBooking.Infrastructure.Seeding;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,9 +30,6 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
             errorNumbersToAdd: null);
     })
 );
-//builder.Services.AddScoped<IUserStore<ApplicationUser>, UserStore<ApplicationUser, ApplicationRole, ApplicationDbContext, Guid>>();
-//builder.Services.AddScoped<IRoleStore<ApplicationRole>, RoleStore<ApplicationRole, ApplicationDbContext, Guid>>();
-//Add Identity services
 builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
 {
     // Configure identity options
@@ -76,13 +73,24 @@ builder.Services.AddControllers().AddCustomModelBinders();
 builder.Services.AddEndpointsApiExplorer();
 
 // Add authorization policies
-builder.Services.AddAuthorization(options =>
+builder.Services.AddAuthentication(options =>
 {
-    options.AddPolicy("CanManageBookings", policy => policy.RequireClaim("Permission", "ManageBookings"));
-    options.AddPolicy("CanManageRooms", policy => policy.RequireClaim("Permission", "ManageRooms"));
-    options.AddPolicy("CanManageUsers", policy => policy.RequireClaim("Permission", "ManageUsers"));
-    options.AddPolicy("CanAccessReports", policy => policy.RequireClaim("Permission", "AccessReports"));
-    options.AddPolicy("CanManagePayments", policy => policy.RequireClaim("Permission", "ManagePayments"));
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
+        ValidAudience = builder.Configuration["JwtSettings:Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(
+            Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:SecretKey"]))
+    };
 });
 
 var app = builder.Build();
