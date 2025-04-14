@@ -116,7 +116,7 @@ namespace HotelBooking.Web.API.Controllers
             try
             {
                 var salesChannel = await _salesChannelService.CreateSalesChannelAsync(salesChannelCreateDTO);
-                return Created(nameof(salesChannel), new {id = salesChannel.Id}, salesChannel);
+                return Created(nameof(GetSalesChannel), new {id = salesChannel.Id}, salesChannel);
             }
             catch (InvalidOperationException ex)
             {
